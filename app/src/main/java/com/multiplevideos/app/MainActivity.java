@@ -45,6 +45,8 @@ public class MainActivity extends Activity {
 
     @Override
     public void onStart() {
+        super.onStart();
+
         video1.setVideoPath(getVideoFilePath(0));
         video2.setVideoPath(getVideoFilePath(1));
 
