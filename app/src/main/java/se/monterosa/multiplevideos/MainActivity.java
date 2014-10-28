@@ -1,4 +1,4 @@
-package com.multiplevideos.app;
+package se.monterosa.multiplevideos;
 
 import android.app.Activity;
 import android.content.CursorLoader;
@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         video1 = (VideoView)findViewById(R.id.video_1);
-        video2 = (VideoView)findViewById(R.id.video_1);
+        video2 = (VideoView)findViewById(R.id.video_2);
     }
 
 
